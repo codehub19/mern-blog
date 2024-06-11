@@ -22,8 +22,8 @@ export default function Header() {
            />
         </form>
 
-        <Button className='w-13 h-10 lg:hidden ' color={'grey'} pill>
-             <AiOutlineSearch/>
+        <Button className='w-20 h-10 lg:hidden ' color={'grey'} pill>
+             <AiOutlineSearch size={20}/>
         </Button>
 
         <div className='flex gap-2 md:order-2'>
